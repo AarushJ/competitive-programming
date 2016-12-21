@@ -10,9 +10,8 @@ void sieve(){	   			// no need of memset because isPrime is global
 	int root = sqrt(MAX);
 	loop(i,2,root+1){
 		if(!prime[i]){ 
-			for( int j = i*i ; j<=MAX ; j+=i ){
+			for( int j = i*i ; j<=MAX ; j+=i )
 				prime[j] = true; 
-			}	
 		}
 	}
 }
