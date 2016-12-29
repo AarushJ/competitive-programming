@@ -2,7 +2,7 @@
 using namespace std;
 
 #define loop(i,a,b) for(int i = int(a); i<int(b) ; i++)
-#define rloop(i,a,b) for(int i = int(a); i>int(b) ; i--)
+#define rloop(i,a,b) for(int i = int(a); i>int(b) ; i--) // reverse iterating loop
 
 void swap2numbers(int *a,int *b){
 	int t = *a;
