@@ -70,7 +70,8 @@ int main(){
 	
 	lp(i,0,e){
 		cin >> a >> b;
-		g[a-1].pb(b-1); // vertices are 1 indexed while graph is zero indexed 
+		g[a-1].pb(b-1); // vertices are 1 indexed while graph is zero indexed
+		g[b-1].pb(a-1); 
 	}
 	// In case of test cases, use memset to fill arrays mark[] and recStack[] with false values..
 	bool flag = false;
