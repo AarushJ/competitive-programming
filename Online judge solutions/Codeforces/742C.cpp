@@ -53,11 +53,9 @@ inline ll sfme(ll a,ll b,ll m) {ll r=1;a%=m;while(b>0){if(b&1)r=fmm(r,a,m);a=fmm
 int check(int crush[],int mark[],int start){
     int i = start,count = 0;
     while(!mark[i]){
-    	//cout << "i : " << i << endl << "count : " << count << endl;
     	mark[i] = true;
         i = crush[i];
         count++;
-        //cout << "count : " << count <<endl;
     }
     if(i!=start)    return -1;
     return count;
@@ -76,10 +74,10 @@ int main(){
 	        cout << tmp << "\n";
 	        return 0;
 	    }
-	    //cout << "tmp : " << tmp << endl;
+	    
 	    if(tmp%2)   ans = lcm(ans,tmp);
 	    else ans = lcm(ans,tmp/2);
-		//cout << "ans : " << ans << endl;
+		
 	}
 	cout << ans << "\n";
 	return 0;
