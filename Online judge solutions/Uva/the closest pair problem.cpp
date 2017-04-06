@@ -86,8 +86,7 @@ int main(){
 		ld minn = LLONG_MAX;
     	set<pair<ld,ld> > act;	// active set
     	act.insert(pt[0]);	// inserting first element into the set as the analysis of 1 point for closest pair of points is trivial
-    	
-		ll left = 0;
+    	ll left = 0;
     	
     	// beginning the analysis of the n-1 points left to be analysed
     	lp(i,1,n-1){
@@ -99,7 +98,7 @@ int main(){
 		}
 		
 		if(minn < 10000)		cout << fixed << setprecision(4) << minn << "\n";
-    	else					cout << "INFINITY\n";
+		else	cout << "INFINITY\n";
 	}
 	return 0;
 }
