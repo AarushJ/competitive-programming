@@ -6,6 +6,7 @@ typedef long long ll;
 
 map<ll,ll> maxCoins;
 
+
 ll coins(ll n){
 	if(maxCoins.find(n)!=maxCoins.end()){
 		return maxCoins[n];
