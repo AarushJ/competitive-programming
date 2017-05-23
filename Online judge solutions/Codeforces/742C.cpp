@@ -1,3 +1,10 @@
+/*
+	AARUSH JUNEJA
+	@vivace1
+	TOPICS : Least Common Multiple (LCM) , adhoc
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
