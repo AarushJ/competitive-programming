@@ -1,7 +1,7 @@
 /*
 	AARUSH JUNEJA
-	@vivace
-	IIT(ISM),Dhanbad
+	@vivace1
+	TOPICS : Dynamic programming( Tabulation/bottom-up)
 */
 
 #include<bits/stdc++.h>
