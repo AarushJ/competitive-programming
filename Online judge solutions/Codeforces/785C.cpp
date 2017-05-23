@@ -1,7 +1,9 @@
 /*
 	AARUSH JUNEJA
 	@vivace
-	IIT(ISM),Dhanbad
+	
+	TOPICS : greedy, binary search
+	
 */
 
 #include<bits/stdc++.h>
