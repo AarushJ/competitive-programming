@@ -1,7 +1,7 @@
 /*
 	AARUSH JUNEJA
 	@vivace1
-	TOPICS : greedy
+	TOPICS : greedy (with lots of edge cases)
 */
 
 #include<bits/stdc++.h>
