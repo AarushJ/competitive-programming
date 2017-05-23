@@ -1,3 +1,11 @@
+/*
+	AARUSH JUNEJA
+	@vivace
+
+	TOPICS : sorting, greedy, 2-pointer technique
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
