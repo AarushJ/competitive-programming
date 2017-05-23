@@ -1,3 +1,10 @@
+/*
+	AARUSH JUNEJA
+	@vivace
+	TOPICS : adhoc
+*/
+
+
 #include<iostream>
 #include<cmath>
 using namespace std;
