@@ -1,3 +1,9 @@
+/*
+	AARUSH JUNEJA
+	@vivace1
+	TOPICS : goldbach's conjecture, number theory
+*/
+
 #include<iostream>
 #include<cmath>
 using namespace std;
