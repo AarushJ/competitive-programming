@@ -1,7 +1,7 @@
 /*
 	AARUSH JUNEJA
-	@vivace
-	IIT(ISM),Dhanbad
+	@vivace1
+	TOPICS : greedy, sorting, games
 */
 
 #include<bits/stdc++.h>
