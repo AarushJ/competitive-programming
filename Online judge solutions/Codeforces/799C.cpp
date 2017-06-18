@@ -1,6 +1,7 @@
 /*
 	AARUSH JUNEJA
 	@vivace1
+	TOPICS : Segment tree, binary search. 
 */
 
 #include<bits/stdc++.h>
