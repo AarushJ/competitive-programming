@@ -1,7 +1,7 @@
 /*
 	AARUSH JUNEJA
 	@vivace
-	TOPICS : probability, expectation value, coupon collector problem
+	TOPICS : Dynamic Programming
 */
 
 #include<bits/stdc++.h>
