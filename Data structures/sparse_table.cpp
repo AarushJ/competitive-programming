@@ -1,13 +1,7 @@
-#include<bits/stdc++.h>
-using namespace std;
+/* ZERO-INDEXED SPARSE TABLE FOR RANGE SUM QUERY PROBLEM WITHOUT UPDATES*/
 
 typedef long long ll;
 typedef vector<ll> vll;
-
-#define sl(a) scanf("%lld",&a)
-#define lp(i,b) for(ll i = ll(0); i<ll(b) ; i++) 
-#define lpit(it,a) for(__typeof(a.begin()) it = a.begin(); it != a.end(); ++it)
-#define all(a) a.begin(),a.end()
 
 #define NMAX 100005
 #define LOGNMAX 16
@@ -37,16 +31,3 @@ ll query_sparse(int qlo, int qhi){
 	return sum;
 }
 
-int main(){
-	int n, q, qlo, qhi;
-	cin >> n;
-	lp(i, n)	cin >> arr[i];
-	build_sparse(n);
-	cin >> q;
-	while(q--){
-		cin >> qlo >> qhi;
-		qlo--; qhi--; // assuming query indices are 1-indexed and my sparse table is zero indexed
-		ll result = query_sparse(qlo, qhi);
-		cout << result << "\n";
-	}
-}
