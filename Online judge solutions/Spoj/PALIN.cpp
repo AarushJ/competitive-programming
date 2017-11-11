@@ -15,6 +15,14 @@ bool isPalin(string &s){
 	return true;
 }
 
+bool allZero( string &s){
+	int len = s.size();
+	for(int i = 0 ; i < len ; i++){
+		if( s[i] != '0' )	return false;
+	}
+	return true;
+}
+
 void case9(string &s,int &lo,int &hi){
 	if(s[lo]=='9'){
 		while(s[lo]=='9'){
@@ -28,14 +36,18 @@ void case9(string &s,int &lo,int &hi){
 }
 
 int main() {
-	ios::sync_with_stdio(false);
-	cin.tie(NULL);
+	//ios::sync_with_stdio(false);
+	//cin.tie(NULL);
 	int t,len;
 	cin >> t;
 	string s;
 	while(t--){
 		cin >> s;
 		len = s.size();
+		if( allZero(s) ) {
+			cout << 1 << "\n";
+			continue;
+		}
 		if( len == 1 ){
 			if( s[0]<='8')
 				cout << s[0]+1-'0';
